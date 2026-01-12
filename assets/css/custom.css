@@ -10,6 +10,13 @@ code, kbd, samp, pre {
   font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,liberation mono,courier new,monospace;
 }
 
+.content ol li p strong:first-of-type {
+  display: block;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
 .content :where(img):not(:where([class~=not-prose],[class~=not-prose] *)) {
   margin-left: auto;
   margin-right: auto;
